@@ -1,4 +1,4 @@
-/* Общие стили */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -21,7 +21,6 @@ body {
     text-decoration: underline;
   }
   
-  /* Стили для шапки */
   header {
     background-color: #a09d9d;
     padding: 10px;
@@ -49,7 +48,6 @@ body {
     font-weight: bold;
   }
   
-  /* Стили для секции новостей */
   .news {
     display: flex;
     flex-wrap: wrap;
@@ -86,7 +84,6 @@ body {
     margin-top: 10px;
   }
   
-  /* Стили для секции подписки на новости */
   .newsletter {
     background-color: #f9f9f9;
     padding: 20px;
@@ -123,7 +120,6 @@ body {
     background-color: #555;
   }
   
-  /* Стили для футера */
   footer {
     background-color: #333;
     color: #fff;
