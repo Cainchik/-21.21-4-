@@ -1,0 +1,133 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Стили для шапки */
+  header {
+    background-color: #a09d9d;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Стили для секции новостей */
+  .news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .news article {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  }
+  
+  .news article:hover {
+    box-shadow: 0px 5px 20px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+  }
+  
+  .news h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .news p {
+    margin: 10px 0;
+    font-size: 16px;
+  }
+  
+  .news a {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  /* Стили для секции подписки на новости */
+  .newsletter {
+    background-color: #f9f9f9;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .newsletter label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .newsletter input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .newsletter button {
+    display: block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .newsletter button:hover {
+    background-color: #555;
+  }
+  
+  /* Стили для футера */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
